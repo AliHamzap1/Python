@@ -5,24 +5,21 @@
 
 strIndexes = 'me me me'
 
+# Find a character between a string using this Rule
+# [start:stop:stepover] StepOver Means how many characters to skip
+print(strIndexes[0:8:2]) # it will print 'm e'
+
 numbers = '0123456789'
 
-# Find a character between a string using this Rule
-# [start:stop:stepover]
 
-print(strIndexes[0:8:2])
-
-print(numbers[1:])
+#Guess the output of each print statement before you click RUN!
+print('Examples:')
 
 print(numbers[:10])
-
 print(numbers[::1]) # this is step over only
-
 print(numbers[-3]) # its read reversable
-
 print(numbers[::-1]) # its reverse the string by stepover
 
-print('Examples:')
 print(numbers[1:4])
 print(numbers[1:])
 print(numbers[:])
