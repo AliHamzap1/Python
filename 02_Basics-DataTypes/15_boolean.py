@@ -7,3 +7,6 @@
 
 print(bool(0)) # False
 print(bool(1)) # True
+
+print(bool("True"))  # True
+print(bool("False"))  # True
